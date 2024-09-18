@@ -30,35 +30,4 @@ namespace Challenge
             list.PrintList();
         }
     }
-
-    public class ShoppingList
-    {
-        // TODO: Implement the AddItem function
-        public void AddItem(string ItemName, double Price, int Quantity)
-        {
-            // YOUR CODE GOES HERE
-        }
-
-        // TODO: Implement the RemoveItem function
-        public void RemoveItem(string ItemName)
-        {
-            // YOUR CODE GOES HERE
-        }
-
-        // TODO: Implement the GetCount function
-        public int GetCount()
-        {
-            int count = 0;
-            // YOUR CODE GOES HERE
-            return count;
-        }
-
-        public void PrintList()
-        {
-            // foreach (var item in shoppingList)
-            // {
-            //     Console.WriteLine($"Item: {item.itemName,10}, Price: {item.price:C}, Quantity: {item.quantity}");
-            // }
-        }
-    }
 }
